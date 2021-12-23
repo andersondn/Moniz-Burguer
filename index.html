@@ -21,37 +21,45 @@
        
         }
         
-    nav{
-        background-color: black;
-    }
+    
     </style>
 
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            
+            <!--Logo-->
             <div class="container">
               <a class="navbar-brand" href="index.html">
                 <img src="Imagens/Logo.png" alt="logo" width="190px" height="127px">
               </a>
             </div>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sobre Nós</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link">Fotos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link">Contato</a>
-                  </li>
-              </ul>
+
+            <!--Menu Hamburguer-->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-target">
+                <ul class="nav nav-pills dropdown-itens">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
           </nav>
     </header>
     <section></section> <!--carousel-->
