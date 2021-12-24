@@ -21,8 +21,7 @@
        
         }
         .bg-color{
-            background-color: black;
-            height: 150px;
+            background-color: #021000;
         }
         .nav-link{
             color:white !important;
@@ -31,6 +30,12 @@
              background: url(imagens/fundo.jpg) no-repeat center fixed;
             background-size: cover;
         }
+        .nav-pills .nav-link.active{
+            background-color: #dd0d0d;
+        }
+        .navbar-toggler{
+            background-color:#dd0d0d ;
+        }
         
     
     </style>
@@ -38,12 +43,13 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-color">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-color">
             
             <!--Logo-->
             <div class="container">
               <a class="navbar-brand" href="index.html">
-                <img src="Imagens/Logo.png" alt="logo" width="190px" height="127px">
+                <img src="Imagens/Logo.png" alt="logo" width="190px" height="127px" >
+              
               </a>
             </div>
 
@@ -55,7 +61,7 @@
             <div class="collapse navbar-collapse" id="nav-target">
                 <ul class="nav nav-pills ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Cardápio</a>
@@ -64,10 +70,10 @@
                         <a class="nav-link" href="#">Sobre Nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Fotos</a>
+                        <a class="nav-link" href="#">Fotos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Contato</a>
+                        <a class="nav-link" href="#">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -86,6 +92,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).on('click', 'ul li', function(){
+          $(this).addClass('active').siblings().removeClass('active')  
+        })
+    </script>
   </body>
 </html>
