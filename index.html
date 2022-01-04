@@ -62,7 +62,7 @@
         h5{
             text-align: right;
         }
-        /*.fundo-verde{
+        .fundo-verde{
             background: green;
         }
         .fundo-blue{
@@ -73,7 +73,7 @@
         }
         .fundo-rosa{
             background: pink;
-        }*/
+        }
         
     
     </style>
@@ -81,11 +81,11 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-xl navbar-dark bg-color">
+        <nav class="navbar navbar-expand-xl  navbar-dark bg-color">
             
             <!--Logo-->
-            <div class="container fundo-blue">
-              <a class="navbar-brand" href="index.html">
+            <div>
+            <a class="navbar-brand" href="index.html">
                 <img src="Imagens/Logo1.png" alt="logo" width="190px" height="127px" >
               </a>
             </div>
@@ -96,7 +96,7 @@
             </button>
 
             <div class="collapse navbar-collapse " id="nav-target">
-                <ul class="nav nav-pills">
+                <ul class="nav nav-pills justify-content-end ">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -114,7 +114,7 @@
                     </li>
                 </ul>
             </div>
-          </nav>
+        </nav>
     </header>
     <div class="fundo-opaco">
         <section> <!--carousel-->
@@ -177,16 +177,20 @@
                 </div>
             </section> <!--cardapio-->
             <section>
-                <div class="fundo">
+                <div class="container fundo">
                     <div class="row mt-4">
-                        <h1>Nossa História</h1>
-                        <p>O Moniz burguer surgiu em uma tradicional noite de reunião familiar para comer hamburgueres artesanais, onde meu pai deu a brilhante ideia de investir na área promissora da gastronomia. Ao amadurecer essa ideia em minha cabeça junto com minha esposa que me deu todo o apoio, com muito esforço, dedicação, trabalho duro e persistência, conseguimos abrir nossas portas para servir o melhor hamburguer artesanal da cidade. 
-                        <br>Infelizmente meu pai o Sr. Jonas José Moniz partiu sem poder ver esse sonho realizado, porém hoje nos acompanha todos os dias sendo homenageado em nosso cardápio com o Moniz JJ Monstro o maior hamburguer de nosso menu, que não chega ao tamanho do que foi este grande homem.
-                        </p>
-                        <h5>Rafael Moniz</h5>
+                        <div class="col-md">
+                            <h1>Nossa História</h1>
+                            <p>O Moniz burguer surgiu em uma tradicional noite de reunião familiar para comer hamburgueres artesanais, onde meu pai deu a brilhante ideia de investir na área promissora da gastronomia. Ao amadurecer essa ideia em minha cabeça junto com minha esposa que me deu todo o apoio, com muito esforço, dedicação, trabalho duro e persistência, conseguimos abrir nossas portas para servir o melhor hamburguer artesanal da cidade. 
+                            <br>Infelizmente meu pai o Sr. Jonas José Moniz partiu sem poder ver esse sonho realizado, porém hoje nos acompanha todos os dias sendo homenageado em nosso cardápio com o Moniz JJ Monstro o maior hamburguer de nosso menu, que não chega ao tamanho do que foi este grande homem.
+                            </p>
+                            <h5>Rafael Moniz</h5>
+                        </div>
                     </div>
                     <div class="row">
-                        <img class="m-auto rounded" src="imagens/sobrenos.jpeg" width="900" height="500">
+                        <div class="col-md">
+                            <img class="m-auto rounded" src="imagens/sobrenos.jpeg" width="650" height="450">
+                        </div>
                     </div>
                 </div>
             </section> <!--sobre nós-->
