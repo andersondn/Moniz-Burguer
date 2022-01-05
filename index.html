@@ -44,11 +44,11 @@
         }
         .fundo-opaco{
             background-color: rgba(0, 0, 0, 0.6);
-            width: 1000px;
+            max-width: 1000px;
             margin: auto;
         }
         .fundo{
-            width: 900px;
+            max-width: 900px;
             height: auto;
             margin-left: auto;
             margin-right: auto;
@@ -61,6 +61,9 @@
         }
         h5{
             text-align: right;
+        }
+        .center{
+            text-align: center;
         }
         .fundo-verde{
             background: green;
@@ -96,7 +99,7 @@
             </button>
 
             <div class="collapse navbar-collapse " id="nav-target">
-                <ul class="nav nav-pills justify-content-end ">
+                <ul class="nav nav-pills ml-auto ">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -187,14 +190,52 @@
                             <h5>Rafael Moniz</h5>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md">
-                            <img class="m-auto rounded" src="imagens/sobrenos.jpeg" width="650" height="450">
+                    <div class="row justify-content-center">
+                        <div class="col-md-7">
+                            <img class="m-auto img-fluid rounded" src="imagens/sobrenos.jpeg">
+                            <h5 class="center">Rafael Moniz e Sr. Jonas Moniz</h5>
                         </div>
                     </div>
                 </div>
             </section> <!--sobre nós-->
-            <section></section> <!--fotos-->
+            <section>
+                <div class="container fundo">
+                    <h1>Fotos</h1>
+                    <div class="row">
+                        <div class="img-fluid col-md m-1">
+                            <img src="imagens/fotos 1.jpeg" style="max-width: 100%;">
+                        </div>
+                        <div class="img-fluid col-md m-1">
+                            <img src="imagens/fotos 2.jpeg" style="max-width: 100%;">
+                        </div>
+                        <div class="img-fluid col-md m-1">
+                            <img src="imagens/fotos 3.jpeg" style="max-width: 100%;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="img-fluid col-md m-1 ">
+                            <img src="imagens/fotos 4.jpeg" style="max-width: 100%;">
+                        </div>
+                        <div class="img-fluid col-md m-1 ">
+                            <img src="imagens/fotos 5.jpeg" style="max-width: 100%;">
+                        </div>
+                        <div class="img-fluid col-md m-1 ">
+                            <img src="imagens/fotos 6.jpeg" style="max-width: 100%;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="img-fluid col-md m-1">
+                            <img src="imagens/fotos 7.jpeg" style="max-width: 100%;">
+                        </div>
+                        <div class="img-fluid col-md m-1">
+                            <img src="imagens/fotos 8.jpeg" style="max-width: 100%;">
+                        </div>
+                        <div class="img-fluid col-md m-1">
+                            <img src="imagens/fotos 9.jpeg" style="max-width: 100%;">
+                        </div>
+                    </div>
+                </div>
+            </section> <!--fotos-->
             <section></section> <!--contato-->
     </div>
     <footer></footer>
