@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color{
+    background: #021000;
+}
+body{
+   background: #9b1516;
+}   
+.bg-capa{
+    background: #9b1516;
+}
+
+.bg-nh{
+    background: #ffc107;
+}
+
+
+.navbar-brand{
+    transition: transform .2s;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.2);
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.navbar-toggler{
+    background-color: #9b1516;
+}
+
+.btn-color{
+    background-color: #9b1516;
+}
+
+.btn-color:hover {
+    background: #dd0d0d;
+    color: #fff;
+}
+.app{
+    border: 2px solid #021000;
+    border-radius: 50%;
+}
+
+#textos{
+    color: #fff;
+}
+h1{
+    font-family: 'Patua One', cursive;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    
+    font-size: 20px;
+}
+
+#instagram {
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    background: black;
+    color: white;
+    margin: 0 3px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 40px;
+    text-decoration: none
+}
+#instagram:hover{
+    background: #9b1516;
+    
+}
+
+#criado{
+    color: #fff;
+}
+
+#fotos img{
+    
+    border-radius: 10%;
+}
